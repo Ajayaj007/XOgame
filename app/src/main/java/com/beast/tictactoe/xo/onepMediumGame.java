@@ -1,8 +1,8 @@
 package com.beast.tictactoe.xo;
 
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.SpannableString;
 import android.view.View;
 import android.widget.Button;
@@ -261,15 +261,14 @@ public class onepMediumGame extends AppCompatActivity implements View.OnClickLis
 
     public void compTurn() {
         int a = 0, b = 0, place = 0;
-        if(alternativeSwitchVar) {
+        if (alternativeSwitchVar) {
             alternativeSwitchVar = false;
             Random rand = new Random();
             do {
                 place = rand.nextInt(3);
                 a = rand.nextInt(3);
             } while (dataentry[a][place] != 0);
-        }
-        else{
+        } else {
             alternativeSwitchVar = true;
             compMove = findBestMove();
             a = compMove.row;
@@ -363,6 +362,7 @@ public class onepMediumGame extends AppCompatActivity implements View.OnClickLis
             }, 500);
         }
     }
+
     public class Move {
         int row, col;
     }

@@ -30,7 +30,13 @@
         <activity android:name=".onepmenu" />
         <activity android:name=".onepeasygame" />
         <activity android:name=".onepHardGame" />
-        <activity android:name=".onepMediumGame"></activity>
+        <activity android:name=".onepMediumGame" />
+        <activity android:name=".BeastModeMenu" />
+        <activity android:name=".BeastOnePMenu" />
+        <activity
+            android:name=".BeastOnePEasyGame"
+            android:label="@string/title_activity_beast_one_peasy_game"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

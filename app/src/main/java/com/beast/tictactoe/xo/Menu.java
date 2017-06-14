@@ -40,7 +40,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         switch (i) {
                             case 0:*/
-                startActivity(new Intent(Menu.this, Beast.class));
+                startActivity(new Intent(Menu.this, BeastModeMenu.class));
                 break;
                             /*case 1:
                                 M.tl(getApplicationContext(),"Dont rush! first complete Local!!");

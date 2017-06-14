@@ -14,8 +14,9 @@
     <string name="single_player">Single Player</string>
     <string name="two_player">Two Players</string>
     <string name="selectdifficultlevel">Select Difficulty Level</string>
-    <string name="easy">Easy</string>
-    <string name="hard">Hard</string>
+    <string name="easy">Beginner</string>
+    <string name="hard">Expert</string>
     <string name="medium">Intermediate</string>
+    <string name="title_activity_beast_one_peasy_game">BeastOnePEasyGame</string>
 
 </resources>
