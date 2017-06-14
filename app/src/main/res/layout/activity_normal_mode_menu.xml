@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_normal_mode_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.beast.tictactoe.xo.NormalModeMenu"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/onep"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/single_player"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/twop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/two_player"
+        android:background="@drawable/button_bg"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
